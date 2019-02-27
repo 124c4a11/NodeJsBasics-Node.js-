@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "To study JavaScript",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "title": "To study Node.js",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "title": "To study Express",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "Create app",
+    "completed": false
+  }
+]
