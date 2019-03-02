@@ -41,3 +41,5 @@ psd
 # Node.JS
 node_modules/
 npm-debug.log
+
+*apikey.js
