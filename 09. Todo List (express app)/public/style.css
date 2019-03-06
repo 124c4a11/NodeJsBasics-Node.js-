@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+.page-header { text-align: center; }
+
+.todo-list {
+  max-width: 290px;
+  padding: 0;
+  margin: 0 auto;
+  border-top: 1px solid lightgray;
+  list-style: none;
+}
+
+.todo-list__item { margin: .5em 0; }
+
+.todo-list__item_completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.text_center { text-align: center; }

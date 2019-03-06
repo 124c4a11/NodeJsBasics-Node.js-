@@ -1,0 +1,10 @@
+extends layout
+
+block main
+  if todos
+    ul.todo-list
+      each todo in todos
+        li.todo-list__item(class={'todo-list__item_completed': todo.completed})= `${todo.title} (${todo.completed ? 'completed' : 'not completed'})`
+
+  else
+    p.text_center There are no tasks
